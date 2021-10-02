@@ -1,0 +1,158 @@
+/* Для хранения палитры цветов макета (текст, фон, выделение) используются CSS-переменные. */
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196F3;
+    --footer-contacts-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-text-color);
+}
+
+h2{
+    font-size: 36px;
+    line-height: 1.17;
+    font-weight: 700;
+}
+.developers {
+    font-size: 16px;
+    line-height: 1.17;
+    font-weight: 500;
+}
+.position {
+    font-size: 16px;
+    line-height: 1.17;
+    color: var(--secondary-text-color);
+    font-weight: 400;
+}
+
+.hero-heading {
+    font-size: 44px;
+    line-height: 1.36;
+    font-weight: 900;
+}
+.hero-button {
+    font-size: 16px;
+    line-height: 1.88;
+    font-weight: 700;
+}
+
+.trademark {
+    color: var(--accent-color);
+}
+.top-logo{
+    color: var(--primary-text-color);
+}
+
+.bot-logo {
+    color:#ffffff;
+}
+
+.logo {
+    font-size: 26px;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+}
+
+.nav-pages,
+.nav-contacts,
+.products,
+.pages,
+.footer-contacts {
+    list-style-type: none;
+    text-decoration: none;
+}
+.pages {
+    font-size: 14px;
+    line-height: 1.17;
+    color: var(--primary-text-color);
+    font-weight: 500;   
+}
+
+.active,
+.current {
+    color: var(--accent-color);
+}
+
+.pages:hover,
+.pages:focus {
+    color: var(--accent-color);
+}
+
+.contacts {
+    font-size: 14px;
+    line-height: 1.17;
+    color: var(--secondary-text-color);
+    font-weight: 500;
+    text-decoration: none;
+}
+.contacts:hover,
+.contacts:focus {
+    color: var(--accent-color);
+}
+
+.tabs {
+    font-size: 16px;
+    line-height: 1.63;
+    color: var(--primary-text-color);
+    font-weight: 500;
+}
+
+.decisions {
+    font-size: 18px;
+    line-height: 2;
+    font-weight: 700;
+}
+.type {
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--secondary-text-color);
+    font-weight: 400;
+}
+
+.advantages,
+.trends,
+.team,
+.examples {
+    list-style-type: none;
+}
+.advan-descrip {
+    font-size: 14px;
+    line-height: 1.17;
+    color: var(--primary-text-color);
+    font-weight: 700;
+}
+.advan-text {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--secondary-text-color);
+    font-weight: 400;
+}
+
+li > button:hover,
+li > button:focus {
+    background-color: var(--accent-color);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+footer {
+    background: #2F303A;
+}
+
+address {
+    font-size: 14px;
+    line-height: 1.71;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 400;
+}
+.footer-contacts .contacts {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--footer-contacts-color);
+    font-weight: 400;
+}
+
