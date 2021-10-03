@@ -39,7 +39,7 @@ ol {
     width: 1px !important;
     overflow: hidden;
   }
-  
+
 .container {
     width: 1200px;
     padding-left: 15px;
@@ -51,6 +51,10 @@ ol {
 header {
     border-bottom: 1px solid #ECECEC;
   }
+
+.header-studio {
+    margin-bottom: 200px;
+}
 
 h2 {
     font-size: 36px;
@@ -73,6 +77,8 @@ h2 {
     font-size: 44px;
     line-height: 1.36;
     font-weight: 900;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 .hero-button {
     font-size: 16px;
