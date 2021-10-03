@@ -188,7 +188,11 @@ h2 {
     list-style-type: none;
 }
 
-.team,
+.team {
+    display: flex;
+    list-style-type: none;
+}
+
 .examples {
     list-style-type: none;
 }
