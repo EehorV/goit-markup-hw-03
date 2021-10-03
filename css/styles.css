@@ -103,6 +103,8 @@ h2 {
 .heading-trends,
 .heading-team {
     margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .container-advantages {
