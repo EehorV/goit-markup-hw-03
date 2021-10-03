@@ -37,7 +37,11 @@ ol {
     margin-right: auto;
   }
 
-h2{
+header {
+    border-bottom: 1px solid #ECECEC;
+  }
+
+h2 {
     font-size: 36px;
     line-height: 1.17;
     font-weight: 700;
