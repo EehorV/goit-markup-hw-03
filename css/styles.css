@@ -55,6 +55,9 @@ header {
 .header-studio {
     margin-bottom: 200px;
 }
+.portfolio-header {
+    margin-bottom: 80px;
+}
 
 h2 {
     font-size: 36px;
