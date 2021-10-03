@@ -183,10 +183,11 @@ h2 {
     display: flex;
     list-style-type: none;
 }
-.section{
+.trends{
     display: flex;
+    list-style-type: none;
 }
-.trends,
+
 .team,
 .examples {
     list-style-type: none;
