@@ -123,6 +123,11 @@ h2 {
     margin-bottom: 50px;
     text-align: center;
 }
+
+.developers-title {
+    padding: 30px 0;
+    text-align: center;
+}
 .developers {
     font-size: 16px;
     line-height: 1.17;
