@@ -277,6 +277,21 @@ h2 {
     font-weight: 400;
 }
 
+.direction-name {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -30px;
+    margin-left: -30px;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.direction-img {
+    margin-top: 30px;
+    margin-left: 30px;
+    flex-basis: calc((100% - 30px * 3) / 3);
+}
+
 li > button:hover,
 li > button:focus {
     background-color: var(--accent-color);
@@ -303,4 +318,3 @@ address {
     color: var(--footer-contacts-color);
     font-weight: 400;
 }
-
