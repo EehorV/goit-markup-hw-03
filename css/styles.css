@@ -112,6 +112,10 @@ header {
     margin-left: auto;
 }
 
+.nav-contacts .mail-tel-top + .mail-tel-top {
+    margin-left: 50px;
+}
+
 h2 {
     font-size: 36px;
     line-height: 1.17;
