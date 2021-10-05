@@ -171,6 +171,7 @@ h2 {
 
 .products {
     display: flex;
+    align-items: center;
     list-style-type: none;
     text-decoration: none;
 }
