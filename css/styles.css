@@ -275,6 +275,8 @@ li > button:focus {
 }
 
 footer {
+    display: block;
+    padding: 60px 0 60px 0;
     background: #2F303A;
 }
 
