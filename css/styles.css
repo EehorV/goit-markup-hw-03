@@ -63,6 +63,10 @@ header {
     display: flex;
     align-items: center;
 }  
+.header-container {
+    display:flex;
+    width: 100%;
+}
 
 .btn-products:not(:last-child) {
     margin-right: 8px;
