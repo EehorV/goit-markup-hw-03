@@ -214,6 +214,9 @@ h2 {
     color: var(--accent-color);
 }
 
+.section {
+    padding: 94px 0 94px 0;
+}
 
 .tabs {
     font-size: 16px;
