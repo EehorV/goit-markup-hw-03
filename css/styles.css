@@ -55,6 +55,7 @@ img {
   }
 
 header {
+    display: flex;
     border-bottom: 1px solid #ECECEC;
   }
 
@@ -66,9 +67,11 @@ header {
     margin-bottom: 50px;
 }
 .header-studio {
+    display: flex;
     margin-bottom: 200px;
 }
 .portfolio-header {
+    display: flex;
     margin-bottom: 80px;
 }
 
