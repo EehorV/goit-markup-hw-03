@@ -84,6 +84,19 @@ header {
     margin-bottom: 80px;
 }
 
+.nav-pages {
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    padding: 0;
+}
+
+.menu:not(:last-child) {
+    margin-right: 50px;
+}
+
 .nav-contacts {
     display: flex;
     align-items: center;
