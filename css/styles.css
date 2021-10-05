@@ -82,6 +82,8 @@ header {
 .portfolio-header {
     display: flex;
     margin-bottom: 80px;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .nav-pages {
