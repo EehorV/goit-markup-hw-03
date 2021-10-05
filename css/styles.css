@@ -52,7 +52,7 @@ header {
     border-bottom: 1px solid #ECECEC;
   }
 
-.products .tabs:not(:last-child) {
+.btn-products:not(:last-child) {
     margin-right: 8px;
 }
 
