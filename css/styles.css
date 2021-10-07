@@ -65,7 +65,6 @@ header {
 }  
 .header-container {
     display:flex;
-    width: 100%;
 }
 
 .btn-products:not(:last-child) {
@@ -77,13 +76,11 @@ header {
 }
 .header-studio {
     display: flex;
-    margin-bottom: 200px;
     padding-top: 24px;
     padding-bottom: 25px
 }
 .portfolio-header {
     display: flex;
-    margin-bottom: 80px;
     padding-top: 24px;
     padding-bottom: 25px;
 }
@@ -231,6 +228,9 @@ h2 {
 
 .section {
     padding: 94px 0 94px 0;
+}
+.section-hero{
+    padding: 200px 452px 200px 452px;
 }
 
 .tabs {
