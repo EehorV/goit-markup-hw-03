@@ -231,6 +231,9 @@ h2 {
   display: flex;
   padding: 200px 0;
 }
+.section-advantages {
+  padding-bottom: 0;
+}
 
 .tabs {
   font-size: 16px;
@@ -254,6 +257,12 @@ h2 {
 .advantages {
   display: flex;
   list-style-type: none;
+}
+.advantages-list-item {
+  width: 270px;
+}
+.advantages-list-item:not(:last-child) {
+  margin-right: 30px;
 }
 .trends {
   display: flex;
@@ -352,6 +361,10 @@ address {
   color: #ffffff;
   font-style: normal;
   font-weight: 400;
+  margin-top: 20px;
+}
+.footer-item-contact {
+  margin-top: 9px;
 }
 .footer-contacts .contacts {
   font-size: 14px;
