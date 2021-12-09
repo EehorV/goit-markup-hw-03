@@ -71,10 +71,6 @@ header {
   margin-right: 8px;
 }
 
-.filter-container {
-  margin-top: 94px;
-  margin-bottom: 50px;
-}
 .header-studio {
   display: flex;
   padding-top: 24px;
@@ -112,14 +108,6 @@ header {
 
 .nav-contacts .mail-tel-top + .mail-tel-top {
   margin-left: 50px;
-}
-
-h2 {
-  font-size: 36px;
-  line-height: 1.17;
-  font-weight: 700;
-  margin-bottom: 50px;
-  text-align: center;
 }
 
 .developers-title {
@@ -187,6 +175,7 @@ h2 {
   justify-content: center;
   list-style-type: none;
   text-decoration: none;
+  margin-bottom: 50px;
 }
 .nav-pages,
 .nav-contacts,
@@ -240,12 +229,24 @@ h2 {
   line-height: 1.63;
   color: var(--primary-text-color);
   font-weight: 500;
+  padding: 6px 22px;
+  border-radius: 4px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
+.main-page-secondary-title {
+  font-size: 36px;
+  line-height: 1.17;
+  font-weight: 700;
+  margin-bottom: 50px;
+  text-align: center;
+}
 .decisions {
   font-size: 18px;
   line-height: 2;
   font-weight: 700;
+  margin-bottom: 4px;
 }
 .type {
   font-size: 16px;
